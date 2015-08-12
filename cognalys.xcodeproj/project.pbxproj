@@ -7,9 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8468D0BD1B52334C002BD111 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 8468D0BC1B52334C002BD111 /* README */; };
+		846CEEA11B58BA1D00E0771B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846CEEA01B58BA1D00E0771B /* CoreTelephony.framework */; };
 		84753EDF1B4CE00000F8C610 /* cognalys.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84753EDE1B4CE00000F8C610 /* cognalys.h */; };
 		84753EE11B4CE00000F8C610 /* cognalys.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753EE01B4CE00000F8C610 /* cognalys.m */; };
 		84753EE71B4CE00000F8C610 /* libcognalys.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84753EDB1B4CDFFF00F8C610 /* libcognalys.a */; };
+		84753F151B4CE01400F8C610 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753EF71B4CE01400F8C610 /* Base64.m */; };
+		84753F161B4CE01400F8C610 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753EF71B4CE01400F8C610 /* Base64.m */; };
+		84753F171B4CE01400F8C610 /* UNIBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753EFA1B4CE01400F8C610 /* UNIBaseRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84753F181B4CE01400F8C610 /* UNIBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753EFA1B4CE01400F8C610 /* UNIBaseRequest.m */; };
+		84753F191B4CE01400F8C610 /* UNIBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753EFC1B4CE01400F8C610 /* UNIBodyRequest.m */; };
+		84753F1A1B4CE01400F8C610 /* UNIBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753EFC1B4CE01400F8C610 /* UNIBodyRequest.m */; };
+		84753F1B1B4CE01400F8C610 /* UNISimpleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753EFE1B4CE01400F8C610 /* UNISimpleRequest.m */; };
+		84753F1C1B4CE01400F8C610 /* UNISimpleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753EFE1B4CE01400F8C610 /* UNISimpleRequest.m */; };
+		84753F1D1B4CE01400F8C610 /* UNIHTTPBinaryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F011B4CE01400F8C610 /* UNIHTTPBinaryResponse.m */; };
+		84753F1E1B4CE01400F8C610 /* UNIHTTPBinaryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F011B4CE01400F8C610 /* UNIHTTPBinaryResponse.m */; };
+		84753F1F1B4CE01400F8C610 /* UNIHTTPJsonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F031B4CE01400F8C610 /* UNIHTTPJsonResponse.m */; };
+		84753F201B4CE01400F8C610 /* UNIHTTPJsonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F031B4CE01400F8C610 /* UNIHTTPJsonResponse.m */; };
+		84753F211B4CE01400F8C610 /* UNIHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F051B4CE01400F8C610 /* UNIHTTPResponse.m */; };
+		84753F221B4CE01400F8C610 /* UNIHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F051B4CE01400F8C610 /* UNIHTTPResponse.m */; };
+		84753F231B4CE01400F8C610 /* UNIHTTPStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F071B4CE01400F8C610 /* UNIHTTPStringResponse.m */; };
+		84753F241B4CE01400F8C610 /* UNIHTTPStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F071B4CE01400F8C610 /* UNIHTTPStringResponse.m */; };
+		84753F251B4CE01400F8C610 /* UNIJsonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F091B4CE01400F8C610 /* UNIJsonNode.m */; };
+		84753F261B4CE01400F8C610 /* UNIJsonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F091B4CE01400F8C610 /* UNIJsonNode.m */; };
+		84753F271B4CE01400F8C610 /* UNIHTTPClientHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F0B1B4CE01400F8C610 /* UNIHTTPClientHelper.m */; };
+		84753F281B4CE01400F8C610 /* UNIHTTPClientHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F0B1B4CE01400F8C610 /* UNIHTTPClientHelper.m */; };
+		84753F291B4CE01400F8C610 /* UNIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F0D1B4CE01400F8C610 /* UNIHTTPRequest.m */; };
+		84753F2A1B4CE01400F8C610 /* UNIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F0D1B4CE01400F8C610 /* UNIHTTPRequest.m */; };
+		84753F2B1B4CE01400F8C610 /* UNIHTTPRequestWithBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F0F1B4CE01400F8C610 /* UNIHTTPRequestWithBody.m */; };
+		84753F2C1B4CE01400F8C610 /* UNIHTTPRequestWithBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F0F1B4CE01400F8C610 /* UNIHTTPRequestWithBody.m */; };
+		84753F2D1B4CE01400F8C610 /* UNIRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F121B4CE01400F8C610 /* UNIRest.m */; };
+		84753F2E1B4CE01400F8C610 /* UNIRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F121B4CE01400F8C610 /* UNIRest.m */; };
+		84753F2F1B4CE01400F8C610 /* UNIUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F141B4CE01400F8C610 /* UNIUrlConnection.m */; };
+		84753F301B4CE01400F8C610 /* UNIUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F141B4CE01400F8C610 /* UNIUrlConnection.m */; };
+		84753F3F1B4CE14000F8C610 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F341B4CE14000F8C610 /* NSObject+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84753F401B4CE14000F8C610 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F341B4CE14000F8C610 /* NSObject+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84753F411B4CE14000F8C610 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F361B4CE14000F8C610 /* NSString+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84753F421B4CE14000F8C610 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F361B4CE14000F8C610 /* NSString+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84753F431B4CE14000F8C610 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F381B4CE14000F8C610 /* SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84753F441B4CE14000F8C610 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F381B4CE14000F8C610 /* SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84753F451B4CE14000F8C610 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F3A1B4CE14000F8C610 /* SBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84753F461B4CE14000F8C610 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F3A1B4CE14000F8C610 /* SBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84753F471B4CE14000F8C610 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F3C1B4CE14000F8C610 /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84753F481B4CE14000F8C610 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F3C1B4CE14000F8C610 /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84753F491B4CE14000F8C610 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F3E1B4CE14000F8C610 /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84753F4A1B4CE14000F8C610 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84753F3E1B4CE14000F8C610 /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +78,55 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8468D0BC1B52334C002BD111 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		846CEEA01B58BA1D00E0771B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		84753EDB1B4CDFFF00F8C610 /* libcognalys.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcognalys.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		84753EDE1B4CE00000F8C610 /* cognalys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cognalys.h; sourceTree = "<group>"; };
 		84753EE01B4CE00000F8C610 /* cognalys.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cognalys.m; sourceTree = "<group>"; };
 		84753EE61B4CE00000F8C610 /* cognalysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cognalysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84753EEC1B4CE00000F8C610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84753EF61B4CE01400F8C610 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		84753EF71B4CE01400F8C610 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		84753EF91B4CE01400F8C610 /* UNIBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIBaseRequest.h; sourceTree = "<group>"; };
+		84753EFA1B4CE01400F8C610 /* UNIBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIBaseRequest.m; sourceTree = "<group>"; };
+		84753EFB1B4CE01400F8C610 /* UNIBodyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIBodyRequest.h; sourceTree = "<group>"; };
+		84753EFC1B4CE01400F8C610 /* UNIBodyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIBodyRequest.m; sourceTree = "<group>"; };
+		84753EFD1B4CE01400F8C610 /* UNISimpleRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNISimpleRequest.h; sourceTree = "<group>"; };
+		84753EFE1B4CE01400F8C610 /* UNISimpleRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNISimpleRequest.m; sourceTree = "<group>"; };
+		84753F001B4CE01400F8C610 /* UNIHTTPBinaryResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPBinaryResponse.h; sourceTree = "<group>"; };
+		84753F011B4CE01400F8C610 /* UNIHTTPBinaryResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPBinaryResponse.m; sourceTree = "<group>"; };
+		84753F021B4CE01400F8C610 /* UNIHTTPJsonResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPJsonResponse.h; sourceTree = "<group>"; };
+		84753F031B4CE01400F8C610 /* UNIHTTPJsonResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPJsonResponse.m; sourceTree = "<group>"; };
+		84753F041B4CE01400F8C610 /* UNIHTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPResponse.h; sourceTree = "<group>"; };
+		84753F051B4CE01400F8C610 /* UNIHTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPResponse.m; sourceTree = "<group>"; };
+		84753F061B4CE01400F8C610 /* UNIHTTPStringResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPStringResponse.h; sourceTree = "<group>"; };
+		84753F071B4CE01400F8C610 /* UNIHTTPStringResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPStringResponse.m; sourceTree = "<group>"; };
+		84753F081B4CE01400F8C610 /* UNIJsonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIJsonNode.h; sourceTree = "<group>"; };
+		84753F091B4CE01400F8C610 /* UNIJsonNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIJsonNode.m; sourceTree = "<group>"; };
+		84753F0A1B4CE01400F8C610 /* UNIHTTPClientHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPClientHelper.h; sourceTree = "<group>"; };
+		84753F0B1B4CE01400F8C610 /* UNIHTTPClientHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPClientHelper.m; sourceTree = "<group>"; };
+		84753F0C1B4CE01400F8C610 /* UNIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPRequest.h; sourceTree = "<group>"; };
+		84753F0D1B4CE01400F8C610 /* UNIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPRequest.m; sourceTree = "<group>"; };
+		84753F0E1B4CE01400F8C610 /* UNIHTTPRequestWithBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPRequestWithBody.h; sourceTree = "<group>"; };
+		84753F0F1B4CE01400F8C610 /* UNIHTTPRequestWithBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPRequestWithBody.m; sourceTree = "<group>"; };
+		84753F101B4CE01400F8C610 /* Unirest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Unirest-Prefix.pch"; sourceTree = "<group>"; };
+		84753F111B4CE01400F8C610 /* UNIRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIRest.h; sourceTree = "<group>"; };
+		84753F121B4CE01400F8C610 /* UNIRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIRest.m; sourceTree = "<group>"; };
+		84753F131B4CE01400F8C610 /* UNIUrlConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIUrlConnection.h; sourceTree = "<group>"; };
+		84753F141B4CE01400F8C610 /* UNIUrlConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIUrlConnection.m; sourceTree = "<group>"; };
+		84753F321B4CE14000F8C610 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		84753F331B4CE14000F8C610 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		84753F341B4CE14000F8C610 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		84753F351B4CE14000F8C610 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		84753F361B4CE14000F8C610 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		84753F371B4CE14000F8C610 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		84753F381B4CE14000F8C610 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		84753F391B4CE14000F8C610 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		84753F3A1B4CE14000F8C610 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		84753F3B1B4CE14000F8C610 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		84753F3C1B4CE14000F8C610 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		84753F3D1B4CE14000F8C610 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		84753F3E1B4CE14000F8C610 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846CEEA11B58BA1D00E0771B /* CoreTelephony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +152,8 @@
 		84753ED21B4CDFFF00F8C610 = {
 			isa = PBXGroup;
 			children = (
+				846CEEA01B58BA1D00E0771B /* CoreTelephony.framework */,
+				8468D0BC1B52334C002BD111 /* README */,
 				84753EDD1B4CE00000F8C610 /* cognalys */,
 				84753EEA1B4CE00000F8C610 /* cognalysTests */,
 				84753EDC1B4CDFFF00F8C610 /* Products */,
@@ -85,6 +174,8 @@
 			children = (
 				84753EDE1B4CE00000F8C610 /* cognalys.h */,
 				84753EE01B4CE00000F8C610 /* cognalys.m */,
+				84753F311B4CE13200F8C610 /* JSON */,
+				84753EF51B4CE01400F8C610 /* Unirest */,
 			);
 			path = cognalys;
 			sourceTree = "<group>";
@@ -103,6 +194,78 @@
 				84753EEC1B4CE00000F8C610 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84753EF51B4CE01400F8C610 /* Unirest */ = {
+			isa = PBXGroup;
+			children = (
+				84753EF61B4CE01400F8C610 /* Base64.h */,
+				84753EF71B4CE01400F8C610 /* Base64.m */,
+				84753EF81B4CE01400F8C610 /* HttpRequest */,
+				84753EFF1B4CE01400F8C610 /* HttpResponse */,
+				84753F0A1B4CE01400F8C610 /* UNIHTTPClientHelper.h */,
+				84753F0B1B4CE01400F8C610 /* UNIHTTPClientHelper.m */,
+				84753F0C1B4CE01400F8C610 /* UNIHTTPRequest.h */,
+				84753F0D1B4CE01400F8C610 /* UNIHTTPRequest.m */,
+				84753F0E1B4CE01400F8C610 /* UNIHTTPRequestWithBody.h */,
+				84753F0F1B4CE01400F8C610 /* UNIHTTPRequestWithBody.m */,
+				84753F101B4CE01400F8C610 /* Unirest-Prefix.pch */,
+				84753F111B4CE01400F8C610 /* UNIRest.h */,
+				84753F121B4CE01400F8C610 /* UNIRest.m */,
+				84753F131B4CE01400F8C610 /* UNIUrlConnection.h */,
+				84753F141B4CE01400F8C610 /* UNIUrlConnection.m */,
+			);
+			path = Unirest;
+			sourceTree = "<group>";
+		};
+		84753EF81B4CE01400F8C610 /* HttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				84753EF91B4CE01400F8C610 /* UNIBaseRequest.h */,
+				84753EFA1B4CE01400F8C610 /* UNIBaseRequest.m */,
+				84753EFB1B4CE01400F8C610 /* UNIBodyRequest.h */,
+				84753EFC1B4CE01400F8C610 /* UNIBodyRequest.m */,
+				84753EFD1B4CE01400F8C610 /* UNISimpleRequest.h */,
+				84753EFE1B4CE01400F8C610 /* UNISimpleRequest.m */,
+			);
+			path = HttpRequest;
+			sourceTree = "<group>";
+		};
+		84753EFF1B4CE01400F8C610 /* HttpResponse */ = {
+			isa = PBXGroup;
+			children = (
+				84753F001B4CE01400F8C610 /* UNIHTTPBinaryResponse.h */,
+				84753F011B4CE01400F8C610 /* UNIHTTPBinaryResponse.m */,
+				84753F021B4CE01400F8C610 /* UNIHTTPJsonResponse.h */,
+				84753F031B4CE01400F8C610 /* UNIHTTPJsonResponse.m */,
+				84753F041B4CE01400F8C610 /* UNIHTTPResponse.h */,
+				84753F051B4CE01400F8C610 /* UNIHTTPResponse.m */,
+				84753F061B4CE01400F8C610 /* UNIHTTPStringResponse.h */,
+				84753F071B4CE01400F8C610 /* UNIHTTPStringResponse.m */,
+				84753F081B4CE01400F8C610 /* UNIJsonNode.h */,
+				84753F091B4CE01400F8C610 /* UNIJsonNode.m */,
+			);
+			path = HttpResponse;
+			sourceTree = "<group>";
+		};
+		84753F311B4CE13200F8C610 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				84753F321B4CE14000F8C610 /* JSON.h */,
+				84753F331B4CE14000F8C610 /* NSObject+SBJSON.h */,
+				84753F341B4CE14000F8C610 /* NSObject+SBJSON.m */,
+				84753F351B4CE14000F8C610 /* NSString+SBJSON.h */,
+				84753F361B4CE14000F8C610 /* NSString+SBJSON.m */,
+				84753F371B4CE14000F8C610 /* SBJSON.h */,
+				84753F381B4CE14000F8C610 /* SBJSON.m */,
+				84753F391B4CE14000F8C610 /* SBJsonBase.h */,
+				84753F3A1B4CE14000F8C610 /* SBJsonBase.m */,
+				84753F3B1B4CE14000F8C610 /* SBJsonParser.h */,
+				84753F3C1B4CE14000F8C610 /* SBJsonParser.m */,
+				84753F3D1B4CE14000F8C610 /* SBJsonWriter.h */,
+				84753F3E1B4CE14000F8C610 /* SBJsonWriter.m */,
+			);
+			name = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8468D0BD1B52334C002BD111 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +357,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84753F431B4CE14000F8C610 /* SBJSON.m in Sources */,
+				84753F291B4CE01400F8C610 /* UNIHTTPRequest.m in Sources */,
+				84753F151B4CE01400F8C610 /* Base64.m in Sources */,
+				84753F1F1B4CE01400F8C610 /* UNIHTTPJsonResponse.m in Sources */,
+				84753F1B1B4CE01400F8C610 /* UNISimpleRequest.m in Sources */,
+				84753F2F1B4CE01400F8C610 /* UNIUrlConnection.m in Sources */,
 				84753EE11B4CE00000F8C610 /* cognalys.m in Sources */,
+				84753F491B4CE14000F8C610 /* SBJsonWriter.m in Sources */,
+				84753F191B4CE01400F8C610 /* UNIBodyRequest.m in Sources */,
+				84753F451B4CE14000F8C610 /* SBJsonBase.m in Sources */,
+				84753F2D1B4CE01400F8C610 /* UNIRest.m in Sources */,
+				84753F2B1B4CE01400F8C610 /* UNIHTTPRequestWithBody.m in Sources */,
+				84753F1D1B4CE01400F8C610 /* UNIHTTPBinaryResponse.m in Sources */,
+				84753F271B4CE01400F8C610 /* UNIHTTPClientHelper.m in Sources */,
+				84753F471B4CE14000F8C610 /* SBJsonParser.m in Sources */,
+				84753F251B4CE01400F8C610 /* UNIJsonNode.m in Sources */,
+				84753F231B4CE01400F8C610 /* UNIHTTPStringResponse.m in Sources */,
+				84753F411B4CE14000F8C610 /* NSString+SBJSON.m in Sources */,
+				84753F171B4CE01400F8C610 /* UNIBaseRequest.m in Sources */,
+				84753F3F1B4CE14000F8C610 /* NSObject+SBJSON.m in Sources */,
+				84753F211B4CE01400F8C610 /* UNIHTTPResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +385,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84753F221B4CE01400F8C610 /* UNIHTTPResponse.m in Sources */,
+				84753F4A1B4CE14000F8C610 /* SBJsonWriter.m in Sources */,
+				84753F281B4CE01400F8C610 /* UNIHTTPClientHelper.m in Sources */,
+				84753F2C1B4CE01400F8C610 /* UNIHTTPRequestWithBody.m in Sources */,
+				84753F1C1B4CE01400F8C610 /* UNISimpleRequest.m in Sources */,
+				84753F201B4CE01400F8C610 /* UNIHTTPJsonResponse.m in Sources */,
+				84753F2A1B4CE01400F8C610 /* UNIHTTPRequest.m in Sources */,
+				84753F161B4CE01400F8C610 /* Base64.m in Sources */,
+				84753F481B4CE14000F8C610 /* SBJsonParser.m in Sources */,
+				84753F461B4CE14000F8C610 /* SBJsonBase.m in Sources */,
+				84753F241B4CE01400F8C610 /* UNIHTTPStringResponse.m in Sources */,
+				84753F2E1B4CE01400F8C610 /* UNIRest.m in Sources */,
+				84753F181B4CE01400F8C610 /* UNIBaseRequest.m in Sources */,
+				84753F401B4CE14000F8C610 /* NSObject+SBJSON.m in Sources */,
+				84753F301B4CE01400F8C610 /* UNIUrlConnection.m in Sources */,
+				84753F441B4CE14000F8C610 /* SBJSON.m in Sources */,
+				84753F261B4CE01400F8C610 /* UNIJsonNode.m in Sources */,
+				84753F1E1B4CE01400F8C610 /* UNIHTTPBinaryResponse.m in Sources */,
+				84753F421B4CE14000F8C610 /* NSString+SBJSON.m in Sources */,
+				84753F1A1B4CE01400F8C610 /* UNIBodyRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -250,10 +455,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 arm64 armv7s i386";
 			};
 			name = Debug;
 		};
@@ -261,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -286,28 +493,35 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64 armv7s i386";
 			};
 			name = Release;
 		};
 		84753EF01B4CE00000F8C610 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv64 armv7s i386";
 			};
 			name = Debug;
 		};
 		84753EF11B4CE00000F8C610 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv64 armv7s i386";
 			};
 			name = Release;
 		};
@@ -326,6 +540,7 @@
 				INFOPLIST_FILE = cognalysTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 arm64 armv7s i386";
 			};
 			name = Debug;
 		};
@@ -340,6 +555,7 @@
 				INFOPLIST_FILE = cognalysTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 arm64 armv7s i386";
 			};
 			name = Release;
 		};
@@ -362,6 +578,7 @@
 				84753EF11B4CE00000F8C610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84753EF21B4CE00000F8C610 /* Build configuration list for PBXNativeTarget "cognalysTests" */ = {
 			isa = XCConfigurationList;
@@ -370,6 +587,7 @@
 				84753EF41B4CE00000F8C610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
