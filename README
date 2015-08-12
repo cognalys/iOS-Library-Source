@@ -214,8 +214,7 @@ Usage  ---   >>>>>>
 ############################################# FOR BACKEND ###########################
 
 
-
-https://www.cognalys.com/api/v1/otp/?access_token=<Access Token>&app_id=<App ID>&mobile=<Mobile Number>&deviceModel=<Device Model>&systemVersion=<System Version>&lattitude=<Lattitude>&longitude=<Longitude>&deviceID=<DeviceID>
+https://www.cognalys.com/api/v1/otp/ios?access_token=<Access Token>&app_id=<App ID>&mobile=<Mobile Number>&deviceModel=<Device Model>&systemVersion=<System Version>&lattitude=<Lattitude>&longitude=<Longitude>&deviceID=<DeviceID>
 
 
 
